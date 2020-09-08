@@ -19,20 +19,29 @@ render(
   document.body
 )
 
-myCreateEle(
-  'div',
-  {
-    id: 'name',
-    class: 'person',
-  },
-  myCreateEle(
-    'div',
-    {
-      name: 'wang',
-    },
-    'abc'
-  ),
-  myCreateEle('div', {
-    name: 'li',
-  })
-)
+// myCreateEle(
+//   'div',
+//   {
+//     id: 'name',
+//     class: 'person',
+//   },
+//   myCreateEle(
+//     'div',
+//     {
+//       name: 'wang',
+//     },
+//     'abc'
+//   ),
+//   myCreateEle('div', {
+//     name: 'li',
+//   })
+// )
+
+// myCreateEle(MyComponent, {
+//   id: "name",
+//   "class": "person"
+// }, myCreateEle("div", {
+//   name: "wang"
+// }, "abc"), myCreateEle("div", {
+//   name: "li"
+// }));
