@@ -30,6 +30,7 @@ export class Component {
     }
     get root() {
         if (!this._root) {
+            //如果是componente会递归？
             this._root = this.render().root;
         }
         return this._root;
