@@ -5,6 +5,7 @@ class MyComponent extends Component {
     return (
       <div>
         <h1>my component </h1>
+        {/* {'123'} */}
         {this.children}
       </div>
     )

@@ -55,6 +55,7 @@ export function myCreateEle(tagName, attributes, ...children) {
                 child = new TextWrapper(child);
             }
             if (typeof child === "object" && child instanceof Array) {
+                // debugger
                 insertChildren(child);
             } else {
                 e.appendChild(child);
